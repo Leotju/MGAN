@@ -7,7 +7,7 @@ print('Running demo for *%s* results.' % (annType))
 # initialize COCO ground truth api
 annFile = 'val_gt.json'
 # initialize COCO detections api
-resFile = '../50_65.pkl.json'
+resFile = '../result/50_65.pkl.json'
 
 ## running evaluation
 res_file = open("results.txt", "w")
