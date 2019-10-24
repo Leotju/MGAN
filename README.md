@@ -11,7 +11,7 @@ You can download [CityScapes Datasets](https://www.cityscapes-dataset.com/).Put 
 ## Testing
 The following commands will test the model on 1 GPU. The model can be downloaded [here](https://drive.google.com/file/d/1DjY3JCRX0OkKkQocjX2DX7BV4UG29hGS/view?usp=sharing)
 ```
-./tools/dist_test.sh city_cfgs/mgan_50_65.py models/50_65.pth --eval bbox --out result/50_65.pkl
+./tools/dist_test.sh city_cfgs/mgan_50_65.py models/50_65.pth 1 --eval bbox --out result/50_65.pkl
 ```
 ## Eval
 The following command will evaltate the results on CityPersons
