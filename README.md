@@ -9,12 +9,17 @@ Our MGAN is based on [mmdetection](https://github.com/open-mmlab/mmdetection). P
 You can download [CityScapes Datasets](https://www.cityscapes-dataset.com/).Put it in data folder.
 
 ## Testing
-The following commands will test the model on 1 GPU. The model can be downloaded [here](https://drive.google.com/file/d/1DjY3JCRX0OkKkQocjX2DX7BV4UG29hGS/view?usp=sharing)
+The following commands will test the model on 1 GPU.
 ```
-./tools/dist_test.sh city_cfgs/mgan_50_65.py models/50_65.pth 1 --eval bbox --out result/50_65.pkl
+python tools/test.py city_cfgs/mgan_50_65.py models/50_65.pth --out result/50_65.pkl
 ```
 ## Eval
 The following command will evaltate the results on CityPersons
 ```
 python eval/eval_demo.py
 ```
+
+## Results
+| R       | HO     |                                                             Download                                                              |
+|:----:  | :----: | :-------------------------------------------------------------------------------------------------------------------------------: |
+| 11.0    |   50.3 | [Google Driver](https://drive.google.com/file/d/1gww2UZDLlE76JFA80LoR37OTHxokhaii/view?usp=sharing)/ [Baidu Yun](https://pan.baidu.com/s/1q68cjZZyH4lqNjy9nv588Q)(zq93) |

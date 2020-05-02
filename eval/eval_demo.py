@@ -5,12 +5,12 @@ annType = 'bbox'  # specify type here
 print('Running demo for *%s* results.' % (annType))
 
 # initialize COCO ground truth api
-annFile = 'val_gt.json'
+annFile = 'eval/val_gt.json'
 # initialize COCO detections api
-resFile = '../result/50_65.pkl.json'
+resFile = 'result/50_65.pkl.json'
 
 ## running evaluation
-res_file = open("results.txt", "w")
+res_file = open("eval/results.txt", "w")
 for id_setup in range(0, 2):
     cocoGt = COCO(annFile)
     cocoDt = cocoGt.loadRes(resFile)
