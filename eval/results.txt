@@ -1,2 +1,2 @@
- Average Miss Rate  (MR) @ Reasonable         [ IoU=0.50      | height=[50:10000000000] | visibility=[0.65:10000000000.00] ] = 11.13%
- Average Miss Rate  (MR) @ Reasonable_occ=heavy [ IoU=0.50      | height=[50:10000000000] | visibility=[0.20:0.65] ] = 51.36%
+ Average Miss Rate  (MR) @ Reasonable         [ IoU=0.50      | height=[50:10000000000] | visibility=[0.65:10000000000.00] ] = 11.02%
+ Average Miss Rate  (MR) @ Reasonable_occ=heavy [ IoU=0.50      | height=[50:10000000000] | visibility=[0.20:0.65] ] = 50.34%

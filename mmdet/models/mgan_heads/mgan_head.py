@@ -44,9 +44,10 @@ class MGANHead(nn.Module):
 
     @auto_fp16()
     def forward(self, x):
+        feat = x
         for conv in self.convs:
             x = conv(x)
-        x = self.conv_logits(x).sigmoid() * x
-        return x
+        out = self.conv_logits(x).sigmoid() * feat
+        return out
 
 
