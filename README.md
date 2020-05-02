@@ -22,4 +22,4 @@ python eval/eval_demo.py
 ## Results
 | R       | HO     |                                                             Download                                                              |
 |:----:  | :----: | :-------------------------------------------------------------------------------------------------------------------------------: |
-| 11.0    |   50.3 | [Google Driver](https://drive.google.com/file/d/1gww2UZDLlE76JFA80LoR37OTHxokhaii/view?usp=sharing)/ [Baidu Yun](https://pan.baidu.com/s/1q68cjZZyH4lqNjy9nv588Q)(zq93) |
+| 11.0    |   50.3 | [Google Drive](https://drive.google.com/file/d/1gww2UZDLlE76JFA80LoR37OTHxokhaii/view?usp=sharing)/ [Baidu Yun](https://pan.baidu.com/s/1q68cjZZyH4lqNjy9nv588Q)(zq93) |
